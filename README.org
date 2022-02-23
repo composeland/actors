@@ -1,9 +1,10 @@
-* actors:
+* Compose actors
+** actors:
 
 - button
 - card
 
-* composable:
+** composable:
 
 - 3 x button + card = modal
 
