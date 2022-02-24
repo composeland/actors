@@ -1,5 +1,5 @@
-import { render } from "https://deno.land/x/mulink@14/solid-js-web.js";
-import html from "https://deno.land/x/mulink@14/solid-js-html.js";
+import { render } from "https://cdn.skypack.dev/solid-js/web";
+import html from "https://cdn.skypack.dev/solid-js/html";
 
 function MulInput() {
   return html`
