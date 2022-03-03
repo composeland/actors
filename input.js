@@ -1,7 +1,6 @@
-import { render } from "https://cdn.skypack.dev/solid-js/web";
 import html from "https://cdn.skypack.dev/solid-js/html";
 
-function MulInput() {
+export default function MulInput() {
   return html`
     <div class="custom-text-input" id="custom-text-input">
       <input
@@ -16,9 +15,3 @@ function MulInput() {
     </div>
   `;
 }
-
-const App = () => html`
-<${MulInput}/>
-`
-
-if (document && document.body) render(App, document.body);
